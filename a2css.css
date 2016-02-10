@@ -1,0 +1,81 @@
+ 
+/* startpage */
+ header {
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    height: 100%;
+    font-size: 30pt;
+    width: 100%;
+    padding: 20pt;
+}
+
+#level {
+    position: absolute;
+    top: 47%;
+    left: 35%;
+}
+#level1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    list-style-type: circle;
+}
+#level2 {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    list-style-type: circle;
+}
+#level11 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    list-style-type: disc;
+}
+#level22 {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    list-style-type: disc;
+}
+#start {
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    width: 30%;
+    height: 10%;
+}
+#highscoretxt {
+    position: absolute;
+    top: 65%;
+    left: 35%;
+}
+#highscore {
+    position: absolute;
+    top: 65%;
+    left: 60%;
+}
+/* gamepage */
+ #gamecanvas {
+    border: 1px solid;
+}
+#displayTime {
+    position:absolute;
+    top: 9px;
+    left: 22px;
+}
+#pause, #resume {
+    position: absolute;
+    top: 22px;
+    left: 180px;
+}
+#score {
+    position: absolute;
+    top: 12px;
+    left: 370px;
+}
+/* end page */
+ #endpage {
+    text-align: center;
+}
